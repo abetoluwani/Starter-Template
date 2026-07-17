@@ -38,7 +38,6 @@ class MyApp extends StatelessWidget {
           initialBinding: RootBinding(),
           getPages: AppPages.routes,
           theme: GlobalAppTheme.lighttheme,
-          // darkTheme: KoraStakeTheme.darkTheme,
           themeMode: ThemeMode.system,
           builder: (context, child) {
             final mediaQuery = MediaQuery.of(context);
