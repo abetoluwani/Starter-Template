@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 import '../utils/utils.dart';
 
-class KoraOTP extends StatelessWidget {
+class OTP extends StatelessWidget {
   const KoraOTP({
     super.key,
     this.controller,
