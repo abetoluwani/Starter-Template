@@ -3,7 +3,7 @@ import 'package:pinput/pinput.dart';
 import '../utils/utils.dart';
 
 class OTP extends StatelessWidget {
-  const KoraOTP({
+  const OTP({
     super.key,
     this.controller,
     this.focusNode,
